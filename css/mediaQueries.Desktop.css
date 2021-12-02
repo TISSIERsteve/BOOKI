@@ -1,0 +1,9 @@
+/* Média Queries Desktop */
+
+@media screen and (min-width: 993px)  {
+
+    .search {
+        display: none;
+    }
+}
+/* Fin Média Queries Desktop */

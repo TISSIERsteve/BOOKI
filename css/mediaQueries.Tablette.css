@@ -1,0 +1,135 @@
+/* Média Queries Tablette */
+/* BreakPoint 992px à 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    /* Header */
+    /* Nav */
+    .breadcrump-item:before {
+        display: none;
+
+    }
+
+    .breadcrump-item:after {
+        content: '';
+        display: block;
+        height: 1px;
+        transition:.5s ease;
+    }
+
+    .breadcrump-item:hover:after {
+        width: 100%;
+        background:var(--color2);
+    }
+    /*  Fin Nav */
+
+       .subtitle_title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .subtitle_infos {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .title_principal {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* Formulaire */
+    .form {
+        left: 20px;
+        top: 145px;
+    }
+    
+    .form_search {
+        display: none;
+    }
+
+    .search {
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    border-radius: 10px;
+    color: var(--color4);
+    font-size: 15px;
+    padding: 8px;
+    background-color: var(--color2);
+    }
+
+    .articles_filtres {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+
+    .animaux {
+        margin-left: 82px;
+    }
+    /* Fin Formulaire */
+    /* Fin Header */
+
+    /* Grid-container1 */
+    .grid_container1 {
+        width: 100%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hebergements {
+        width: 98%;
+        order: 2;
+        margin-top: 20px;
+        background-color: var(--color3); 
+    }
+    
+    .section1_figure {
+        background-color:var(--color7); 
+    }
+
+    .populaire {
+        width: 98%;
+        margin: 0 auto;
+        order: 1;
+        background-color: var(--color3); 
+    }
+    
+    .container_item1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .container_item1 a {
+        width: 48%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .aside1_figure {
+        width: 85%;
+        background-color:var(--color7); 
+    }
+    /* Fin Grid-container1 */
+
+    /* Grid-container2 */
+    .grid-container2 {
+        margin-top: -40px;
+    }
+
+    .section2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Fin Grid-contaoner2 */
+
+}
+/* Fin BreakPoint 992px à 768px */
+/* Fin Média Queries Tablette */
